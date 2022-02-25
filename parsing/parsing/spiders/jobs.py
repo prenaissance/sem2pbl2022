@@ -1,3 +1,4 @@
+from urllib.request import Request
 import scrapy
 from ..items import ParsingItem
 #from scrapy.loader import ItemLoader 
@@ -14,8 +15,8 @@ def filterItems(item):#filter ads, negotiable items and buy offers (worst people
 def parsePrice(price):#removes all non-numbers
     return re.sub(r"[^0-9]","",price)
 
-class CategorySpider(scrapy.Spider):
-    name = 'category'
+class JobsSpider(scrapy.Spider):
+    name = 'jobs'
     #allowed_domains = ['999.md/ro/']
     base_url="https://999.md"
     url = 'https://999.md/ro/category/services'
@@ -37,36 +38,51 @@ class CategorySpider(scrapy.Spider):
     
     def parse_subcategory(self, response):
         last_page=response.css(".is-last-page a::attr(href)").get()#link to lp
-        curr_page=response.css(".items__header__store .is-active a::attr(href)").get()+"?view_type=detail"
+        curr_page=response.url+"?view_type=detail"
         if last_page:#more than 1 page
             pages=int(last_page[last_page.find("page=")+5:])
             for i in range(1,pages+1):
-                yield scrapy.Request(self.base_url+curr_page+f"&page={i}",cookies=self.cookieJar,callback=self.parse_subcategory_items)
+                yield scrapy.Request(curr_page+f"&page={i}",cookies=self.cookieJar,callback=self.parse_subcategory_items)
         else:
-            yield scrapy.Request(self.base_url+curr_page,cookies=self.cookieJar,callback=self.parse_subcategory_items)#parse same page again
+            yield scrapy.Request(curr_page,cookies=self.cookieJar,callback=self.parse_subcategory_items)#parse same page again
         
 
     def parse_subcategory_items(self, response):
         all_items=response.css("#js-ads-container .ads-list-detail-item")
         curr_page=response.css(".items__header__store .is-active a::attr(href)").get()
-        category,subcategory=curr_page.split("/")[3:5]
-        subcategory=subcategory[:subcategory.find("?")]
         filtered_items=filter(filterItems,all_items)
-        for item in filtered_items:
-            l={
-                "category":category,
-                "subcategory":subcategory,
-                "name":item.css(".ads-list-detail-item-title a::text").get(),
-                "price":parsePrice(item.css(".ads-list-detail-item-price-wrapper::text").get())
-                #don't think that description is important, we might add it later
-
-            }
-            yield l
         
+        for item in filtered_items:
+            yield scrapy.Request(self.base_url+item.css(".ads-list-detail-item-title a::attr(href)").get(),cookies=self.cookieJar,callback=self.parse_job)
+
+
+    def parse_job(self, response):
+        link=response.url
+        price=response.css(".adPage__content__price-feature__prices__price.is-main")
+        priceValue=int(parsePrice(price.css(".adPage__content__price-feature__prices__price__value::attr(content)").get()))
+        priceCurrency=price.css(".adPage__content__price-feature__prices__price__currency::attr(content)").get()
+        name=response.css(".adPage__header h1::text").get()
+        viewsText=response.css(".adPage__aside__stats__views::text").get()
+        viewsAll=int(parsePrice(viewsText[viewsText.find(":")+2:viewsText.find("(")-1]))
+        viewsToday=int(parsePrice(viewsText[viewsText.find("(")+8:viewsText.find(")")]))
+        category,subcategory=response.css("#m__breadcrumbs li a")[1:3].css("::attr(href)").getall()
+        category=category.split("/")[-1]
+        subcategory=subcategory.split("/")[-1]
+
+        l={
+            "name":name,
+            "priceValue":priceValue,
+            "priceCurrency":priceCurrency,
+            "viewsToday":viewsToday,
+            "viewsAll":viewsAll,
+            "category":category,
+            "subcategory":subcategory,
+            "link":link
+        }
+        yield l
 
     def start_requests(self):#override default to add currency cookies
         url=self.url
         request=scrapy.Request(url,cookies=self.cookieJar,callback=self.parse_category)
-        #request=scrapy.Request("https://999.md/ro/list/computers-and-office-equipment/keyboards-mice-joysticks?store=?view_type=detail",
-        #cookies=self.cookieJar,callback=self.parse_subcategory_items)
+        
         return [request]
