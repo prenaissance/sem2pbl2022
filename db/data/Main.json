@@ -1,0 +1,397 @@
+[{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80ae"
+  },
+  "subcategory": 0,
+  "avg_income": 329,
+  "views_td": 54,
+  "views_all": 62314,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80af"
+  },
+  "subcategory": 1,
+  "avg_income": 230,
+  "views_td": 25,
+  "views_all": 3803,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80b0"
+  },
+  "subcategory": 2,
+  "avg_income": 4008,
+  "views_td": 814,
+  "views_all": 326122,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80b1"
+  },
+  "subcategory": 3,
+  "avg_income": 460,
+  "views_td": 4245,
+  "views_all": 3987786,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80b2"
+  },
+  "subcategory": 4,
+  "avg_income": 79,
+  "views_td": 12,
+  "views_all": 5497,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80b3"
+  },
+  "subcategory": 5,
+  "avg_income": 100,
+  "views_td": 84,
+  "views_all": 27401,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80b4"
+  },
+  "subcategory": 6,
+  "avg_income": 1154,
+  "views_td": 111,
+  "views_all": 83875,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80b5"
+  },
+  "subcategory": 7,
+  "avg_income": 197,
+  "views_td": 575,
+  "views_all": 268323,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80b6"
+  },
+  "subcategory": 8,
+  "avg_income": 931,
+  "views_td": 65,
+  "views_all": 54766,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80b7"
+  },
+  "subcategory": 9,
+  "avg_income": 3230,
+  "views_td": 77,
+  "views_all": 126334,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80b8"
+  },
+  "subcategory": 10,
+  "avg_income": 849,
+  "views_td": 69,
+  "views_all": 26895,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80b9"
+  },
+  "subcategory": 11,
+  "avg_income": 698,
+  "views_td": 34,
+  "views_all": 49359,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80ba"
+  },
+  "subcategory": 12,
+  "avg_income": 1915,
+  "views_td": 623,
+  "views_all": 858448,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80bb"
+  },
+  "subcategory": 13,
+  "avg_income": 655,
+  "views_td": 4916,
+  "views_all": 2208441,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80bc"
+  },
+  "subcategory": 14,
+  "avg_income": 428,
+  "views_td": 2217,
+  "views_all": 1452376,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80bd"
+  },
+  "subcategory": 15,
+  "avg_income": 242,
+  "views_td": 823,
+  "views_all": 311303,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80be"
+  },
+  "subcategory": 16,
+  "avg_income": 11713,
+  "views_td": 27,
+  "views_all": 23670,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80bf"
+  },
+  "subcategory": 17,
+  "avg_income": 1379,
+  "views_td": 39,
+  "views_all": 26472,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80c0"
+  },
+  "subcategory": 18,
+  "avg_income": 220397,
+  "views_td": 2634,
+  "views_all": 813111,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80c1"
+  },
+  "subcategory": 19,
+  "avg_income": 28414,
+  "views_td": 1521,
+  "views_all": 1059015,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80c2"
+  },
+  "subcategory": 20,
+  "avg_income": 1243,
+  "views_td": 694,
+  "views_all": 524445,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80c3"
+  },
+  "subcategory": 21,
+  "avg_income": 10013,
+  "views_td": 502,
+  "views_all": 139392,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80c4"
+  },
+  "subcategory": 22,
+  "avg_income": 20989,
+  "views_td": 1775,
+  "views_all": 477835,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80c5"
+  },
+  "subcategory": 23,
+  "avg_income": 2310,
+  "views_td": 20,
+  "views_all": 9725,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80c6"
+  },
+  "subcategory": 24,
+  "avg_income": 1591,
+  "views_td": 2160,
+  "views_all": 1588800,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80c7"
+  },
+  "subcategory": 25,
+  "avg_income": 230,
+  "views_td": 35,
+  "views_all": 42278,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80c8"
+  },
+  "subcategory": 26,
+  "avg_income": 834,
+  "views_td": 470,
+  "views_all": 384080,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80c9"
+  },
+  "subcategory": 27,
+  "avg_income": 126,
+  "views_td": 23,
+  "views_all": 16550,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80ca"
+  },
+  "subcategory": 28,
+  "avg_income": 13322,
+  "views_td": 1305,
+  "views_all": 1914421,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80cb"
+  },
+  "subcategory": 29,
+  "avg_income": 1852026,
+  "views_td": 21,
+  "views_all": 6931,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80cc"
+  },
+  "subcategory": 30,
+  "avg_income": 1845,
+  "views_td": 677,
+  "views_all": 172210,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80cd"
+  },
+  "subcategory": 31,
+  "avg_income": 297,
+  "views_td": 96,
+  "views_all": 52288,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80ce"
+  },
+  "subcategory": 32,
+  "avg_income": 392,
+  "views_td": 386,
+  "views_all": 206489,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80cf"
+  },
+  "subcategory": 33,
+  "avg_income": 301,
+  "views_td": 674,
+  "views_all": 395078,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80d0"
+  },
+  "subcategory": 34,
+  "avg_income": 330,
+  "views_td": 292,
+  "views_all": 321519,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80d1"
+  },
+  "subcategory": 35,
+  "avg_income": 289,
+  "views_td": 110,
+  "views_all": 56428,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80d2"
+  },
+  "subcategory": 36,
+  "avg_income": 1039,
+  "views_td": 63,
+  "views_all": 35563,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80d3"
+  },
+  "subcategory": 37,
+  "avg_income": 3933,
+  "views_td": 36,
+  "views_all": 21690,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80d4"
+  },
+  "subcategory": 38,
+  "avg_income": 890,
+  "views_td": 27,
+  "views_all": 10389,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80d5"
+  },
+  "subcategory": 39,
+  "avg_income": 2667,
+  "views_td": 234,
+  "views_all": 311060,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80d6"
+  },
+  "subcategory": 40,
+  "avg_income": 1189,
+  "views_td": 545,
+  "views_all": 116155,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80d7"
+  },
+  "subcategory": 41,
+  "avg_income": 3481,
+  "views_td": 307,
+  "views_all": 308742,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80d8"
+  },
+  "subcategory": 42,
+  "avg_income": 2412,
+  "views_td": 78,
+  "views_all": 28874,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+},{
+  "_id": {
+    "$oid": "621e3bd542590f5e1bbb80d9"
+  },
+  "subcategory": 43,
+  "avg_income": 4615,
+  "views_td": 77,
+  "views_all": 70347,
+  "last_updated": "Tue Mar  1 17:30:38 2022"
+}]

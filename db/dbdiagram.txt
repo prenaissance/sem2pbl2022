@@ -1,0 +1,28 @@
+// LEVEL - 1 - TABLES
+
+table main {
+	obj_id int32 [PK, not null]
+	subcategory int32 [not null]
+	avgIncome int32
+	viewsPerDay int32
+	viewsAll int32
+	last_updated datetime
+}
+
+table subcategories {
+	obj_id int32 [not null]
+	id int32 [PK, not null]
+	// Hasn't been fully implemented yet:
+	nameP varchar [not null]
+	// —---------------------------------
+	name varchar
+}
+
+// If necessary, we can
+// add some fields to
+// store files with some
+// additional data.
+
+//LEVEL - 2 - RELATIONSHIPS
+
+Ref: subcategories.id > main.subcategory

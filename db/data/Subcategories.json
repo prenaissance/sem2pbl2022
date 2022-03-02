@@ -1,0 +1,309 @@
+[{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a13"
+  },
+  "id": 0,
+  "name": "care",
+  "denom": "A0"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a14"
+  },
+  "id": 1,
+  "name": "store-delivery",
+  "denom": "A1"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a15"
+  },
+  "id": 2,
+  "name": "photo-video-services",
+  "denom": "A2"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a16"
+  },
+  "id": 3,
+  "name": "rent-a-car",
+  "denom": "A3"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a17"
+  },
+  "id": 4,
+  "name": "reports-and-dissertations",
+  "denom": "A4"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a18"
+  },
+  "id": 5,
+  "name": "cookery",
+  "denom": "A5"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a19"
+  },
+  "id": 6,
+  "name": "education-and-child-care",
+  "denom": "A6"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a1a"
+  },
+  "id": 7,
+  "name": "appliance-repair",
+  "denom": "A7"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a1b"
+  },
+  "id": 8,
+  "name": "transport-for-celebrations",
+  "denom": "A8"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a1c"
+  },
+  "id": 9,
+  "name": "courses-and-trainings",
+  "denom": "A9"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a1d"
+  },
+  "id": 10,
+  "name": "tying",
+  "denom": "A10"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a1e"
+  },
+  "id": 11,
+  "name": "maintenance-of-celebrations",
+  "denom": "A11"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a1f"
+  },
+  "id": 12,
+  "name": "musicians",
+  "denom": "A12"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a20"
+  },
+  "id": 13,
+  "name": "cargo",
+  "denom": "A13"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a21"
+  },
+  "id": 14,
+  "name": "repairs",
+  "denom": "A14"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a22"
+  },
+  "id": 15,
+  "name": "computer-services",
+  "denom": "A15"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a23"
+  },
+  "id": 16,
+  "name": "insurance-services-and-consulting",
+  "denom": "A16"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a24"
+  },
+  "id": 17,
+  "name": "accounting-and-audit-services",
+  "denom": "A17"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a25"
+  },
+  "id": 18,
+  "name": "leasing",
+  "denom": "A18"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a26"
+  },
+  "id": 19,
+  "name": "construction-work",
+  "denom": "A19"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a27"
+  },
+  "id": 20,
+  "name": "security-and-safety",
+  "denom": "A20"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a28"
+  },
+  "id": 21,
+  "name": "dev-support-sites",
+  "denom": "A21"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a29"
+  },
+  "id": 22,
+  "name": "construction-equipment",
+  "denom": "A22"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a2a"
+  },
+  "id": 23,
+  "name": "metal-2",
+  "denom": "A23"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a2b"
+  },
+  "id": 24,
+  "name": "passenger",
+  "denom": "A24"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a2c"
+  },
+  "id": 25,
+  "name": "design-and-architecture",
+  "denom": "A25"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a2d"
+  },
+  "id": 26,
+  "name": "plumbing",
+  "denom": "A26"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a2e"
+  },
+  "id": 27,
+  "name": "electrical-2",
+  "denom": "A27"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a2f"
+  },
+  "id": 28,
+  "name": "car-2",
+  "denom": "A28"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a30"
+  },
+  "id": 29,
+  "name": "doing-business",
+  "denom": "A29"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a31"
+  },
+  "id": 30,
+  "name": "advertising-services-and-development",
+  "denom": "A30"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a32"
+  },
+  "id": 31,
+  "name": "beauty-and-makeup",
+  "denom": "A31"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a33"
+  },
+  "id": 32,
+  "name": "service-and-repair-of-telephones",
+  "denom": "A32"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a34"
+  },
+  "id": 33,
+  "name": "cleaning-services",
+  "denom": "A33"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a35"
+  },
+  "id": 34,
+  "name": "massage",
+  "denom": "A34"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a36"
+  },
+  "id": 35,
+  "name": "nails-manicure-pedicure",
+  "denom": "A35"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a37"
+  },
+  "id": 36,
+  "name": "hair-care",
+  "denom": "A36"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a38"
+  },
+  "id": 37,
+  "name": "laundry",
+  "denom": "A37"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a39"
+  },
+  "id": 38,
+  "name": "printing-design",
+  "denom": "A38"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a3a"
+  },
+  "id": 39,
+  "name": "legal-services",
+  "denom": "A39"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a3b"
+  },
+  "id": 40,
+  "name": "repair",
+  "denom": "A40"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a3c"
+  },
+  "id": 41,
+  "name": "custom-furniture",
+  "denom": "A41"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a3d"
+  },
+  "id": 42,
+  "name": "delivery-clothes",
+  "denom": "A42"
+},{
+  "_id": {
+    "$oid": "621e3ab8ba190ddbd17a1a3e"
+  },
+  "id": 43,
+  "name": "funeral-services",
+  "denom": "A43"
+}]
