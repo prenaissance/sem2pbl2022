@@ -1,3 +1,12 @@
+
+# NodeJS specific #
+.nyc_output/
+coverage/
+node_modules/
+npm-debug.log
+package-lock.json
+test/*.log
+
 #project related
 *.csv
 logs.txt
@@ -6,7 +15,7 @@ logs.txt
 __pycache__/
 *.py[cod]
 *$py.class
-
+.vscode
 # C extensions
 *.so
 

@@ -1,0 +1,52 @@
+{
+    "categories": [
+        {
+            "table": "table_1",
+            "cName": "Cargo",
+            "viewsT": "20267",
+            "viewsD": "213",
+            "price": "1800",
+            "ads": "4056"
+        },
+        {
+            "table": "table_2",
+            "cName": "Carsharing",
+            "viewsT": "10541",
+            "viewsD": "98",
+            "price": "450",
+            "ads": "1976"
+        },
+        {
+            "table": "table_3",
+            "cName": "Repair",
+            "viewsT": "9897",
+            "viewsD": "107",
+            "price": "800",
+            "ads": "1953"
+        },
+        {
+            "table": "table_4",
+            "cName": "Leasing",
+            "viewsT": "9237",
+            "viewsD": "89",
+            "price": "12000",
+            "ads": "2015"
+        },
+        {
+            "table": "table_5",
+            "cName": "Conveyance",
+            "viewsT": "7964",
+            "viewsD": "76",
+            "price": "230",
+            "ads": "1346"
+        },
+        {
+            "table": "table_6",
+            "cName": "Cleaning",
+            "viewsT": "4876",
+            "viewsD": "82",
+            "price": "190",
+            "ads": "1453"
+        }
+    ]
+}

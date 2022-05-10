@@ -1,0 +1,410 @@
+/* The containers */
+
+.container {
+    width: 100%;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.table_container {
+    width: 100%;
+    margin: auto;
+    max-width: 900px;
+}
+
+.about_container {
+    width: 100%;
+    margin: auto;
+    max-width: 900px;
+    font-weight: lighter;
+    margin-bottom: 50px;
+}
+
+.graphs_container {
+    background-color: white;
+    max-width: 1100px;
+    height: inherit;
+}
+
+.form_container {
+    max-width: 550px;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+
+
+/* Some properties of the main tags */
+
+body {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Kaushan Script';
+}
+
+
+/* Some properties of text */
+
+.text_center {
+    text-align: center;
+}
+
+.text_shadow {
+    text-shadow: black 3px 3px 0;
+}
+
+
+/* The intro (image) */
+
+.intro {
+    width: 100%;
+    height: 85vh;
+    
+    background: url("materials/intro-b.jpg") center
+        no-repeat;
+    background-size: cover;
+    
+    color: aliceblue;
+}
+
+
+/* The intro (text) */
+
+.text_intro_name {
+    font-size: 50px;
+    padding-top: 24vh;
+    color: #84DCC6;
+    text-align: center;
+    font-family: 'Kaushan Script';
+}
+
+.text_intro_main {
+    font-size: 40px;
+    padding-top: 0;
+    color: #84DCC6;
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+.text_intro_main:after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    margin: 35px auto 0;
+    
+    
+    background-color: #84DCC6;
+    box-shadow: 3px 3px 0 0 rgba(0,0,0,.8);
+}
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 8px 25px;
+    margin-top: 35px;
+    
+    border: 3px solid #84DCC6;
+    color: #84DCC6;
+    text-shadow: black 3px 3px 0;
+    
+    text-transform: uppercase;
+    
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    
+    transition: color .2s linear;
+    box-shadow: 3px 3px 0 0 rgba(0,0,0,.8);
+    font-family: 'Montserrat';
+}
+
+.btn:hover {
+    color: cornsilk;
+}
+
+
+/* The header */
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 2vh;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Montserrat';
+}
+
+
+/* The header elements */
+
+.logo {
+    font-size: 2vh;
+    color: #84DCC6;
+}
+
+.nav {
+    font-size: 2vh;
+    text-transform: uppercase;
+}
+
+.nav_link {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    color: #84DCC6;
+    text-decoration-line: none;
+    
+    transition: color .2s linear;
+}
+
+.nav_link:hover {
+    color: cornsilk;
+}
+
+
+/* The header of a part */
+
+.part_header {
+    font-family: 'Kaushan Script';
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+
+/* About */
+
+.about_text {
+    text-align: center;
+    margin: 40px 7vw 0;
+    font-family: serif;
+}
+
+.about_h1 {
+    font-weight: 1000;
+    font-family: serif;
+    text-transform: uppercase;
+}
+
+li {
+    font-weight: lighter;
+}
+
+
+/* Blog */
+
+.blog_text {
+    text-align: center;
+    margin: 40px 0 0;
+    font-family: serif;
+}
+
+
+/* Contacts */
+
+.contacts {
+    margin-top: 40px;
+    background-color: dimgray;
+    height: 80px;
+}
+
+
+/* The animation of header */
+
+.header_fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+	animation: showElement;    
+    animation-duration: 1s;
+    outline: 2px solid #000;
+    background-color: white;
+}
+
+@keyframes showElement {
+    0% {
+        opacity: 0;
+        top: -70px;
+    }
+    
+    100% {
+        opacity: 1;
+        top: 0;
+    }
+}
+
+
+/* Table */
+
+.description {
+    text-align: center;
+    margin: 30px 7vw;
+    font-family: serif;
+    font-weight: bold;
+}
+
+.table_unit {
+    width: 30%;
+    height: 60 vh;
+    font-size: 10px;
+}
+
+.border {
+    border-radius: 25px;
+    border: 2px solid #d6d6d6;
+}
+
+.table_separation_h {
+    width: auto;
+    height: 10px;
+}
+
+.table_separation_v {
+    height: auto;
+    width: 10px;
+}
+
+.table_data {
+    font-size: 15px;
+    font-family: 'Montserrat';
+    text-align: left;
+}
+
+.category_img {
+    width: 100%;
+    height: 8vh;
+    
+    background: url('materials/table.jpg') center
+        no-repeat;
+    background-size: cover;
+    
+    margin: 0;
+
+    border-radius: 25px;
+}
+
+.category_header {
+    font-family: 'Kaushan Script';
+    text-align: center;
+    text-align: center;
+    margin: 15px 0;
+}
+
+
+/* Graphs */
+
+.graph_1 {
+    width: 60%;
+    height: 60%;
+}
+
+.graph_2 {
+    width: 60%;
+    height: 60%;
+}
+
+.graphs_bg {
+    width: 100%;
+    height: 995px;
+    
+    background: url("materials/graps_bg-b.jpg") center
+        no-repeat;
+    background-size: cover;
+    
+    margin: 70px 0;
+}
+
+
+/* Bottom */
+
+.bottom {
+    background-color: black;
+    height: 13vh;
+    font-family: 'Montserrat';
+    font-size: 10px;
+}
+
+.subscript {
+    color: grey;
+    font-family: 'Montserrat';
+    font-size: 10px;
+}
+
+
+/* Form */
+
+input[type=text], select {
+    width: 93%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+    font-family: 'Montserrat';
+    border-radius: 25px;
+}
+
+input[type=text]:focus, select:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+label {
+    font-family: 'Montserrat';
+}
+
+.form_header {
+    padding: 40px 20px;
+    font-size: 25px;
+    border-radius: 25px;
+    color:white;
+
+    background: url("materials/graps_bg-b.jpg") center
+        no-repeat;
+    background-size: cover;
+}
+
+.form_btn {
+    border-radius: 25px;
+    padding: 15px 50px;
+    margin: 30px 0 15px 0;
+
+    border: 3px solid black;
+    color: white;
+
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+
+    background-color: black;
+}
+
+.prediction {
+    font-family: 'Montserrat';
+    font-size: 25px;
+    margin: 60px 0;
+}
+
+
+/* Other */
+
+hr {
+    border: none;
+    background-color: #d6d6d6;
+    color: red;
+    height: 2px;
+}
