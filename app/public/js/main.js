@@ -1,35 +1,32 @@
 $(document).ready(function() {
     console.log("script successfully started");
-    var url = "/site/categories.json";
+    var url = "/api/data";
 
-    var json = $.getJSON(url, function(data) {
-        console.log("Data has been successfully received:");
-        console.log(data["categories"]);
+    const button = $("#submit");
 
-        for(var i = 0; i < 6; i++) {
-            var entry = data["categories"][i];
+    button.click((e) => {
 
-            var j = i + 1;
-            var category_id = "#category" + j;
-            var table_id = "#" + entry.table;
-
-            $(category_id).text(entry.cName);
-            $(table_id + "_a").text(entry.price);
-            $(table_id + "_b").text(entry.viewsD);
-            $(table_id + "_c").text(entry.viewsT);
-            $(table_id + "_d").text(entry.ads);
+        button.prop("disabled", true);
+        
+        var request = {
+            age : $("#age").val(),
+            education : $("#ed").val(),
+            maritalStatus : $("#ms").val(),
+            occupation : $("#occ").val(),
+            hours : $("#hrs").val()
         }
-    });
 
-    $("#submit").click(function() {
-        var user_data = [];
+        $.ajax(url, {
+            type: "GET",
+            data: request,
+            success: (data) => {
+                console.log(data);
+                $("#pred").text(data.result ? "Expected over 50k/ year" : "Expected under 50k/ year");
+                button.text("Try again");
+                button.prop("disabled", false);
 
-        user_data[0] = String($("#age").val());
-        user_data[1] = String($("#ed").val());
-        user_data[2] = String($("#ms").val());
-        user_data[3] = String($("#occ").val());
-        user_data[4] = String($("#hrs").val());
-
-        console.log(user_data);
+            }
+        });
+        
     });
 })

@@ -14,8 +14,8 @@
         
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script type="text/javascript" src="/site/js/header.js"></script>
-        <script type="text/javascript" src="/site/js/main.js"></script>
+        <script type="text/javascript" src="/js/header.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
     </head>
 
     
@@ -394,17 +394,17 @@
                 <tr><td>
                     <div class="border">
                         <center><h1 class="form_header">Please enter some data so that we can make a forecast for your salary</h1></center>
-                        <form style="margin: 30px 40px;">
+                        <form style="margin: 30px 40px;" id="forest-form">
 
                             <label for="age"><b>Age</b></label>
-                            <input id="age" type="text" placeholder="Age" name="age">
+                            <input required id="age" type="text" placeholder="Age" name="age">
 
                             <label for="ed"><b>Education</b></label>
-                            <input id="ed" type="text" placeholder="Years of education" name="ed">
+                            <input required id="ed" type="text" placeholder="Years of education" name="ed">
 
                             <label for="ms"><b>Martial status</b></label>
                             <select id="ms" name="ms" type="text">
-                                <option>Never married</option>
+                                <option>Never-married</option>
                                 <option>Married</option>
                                 <option>Divorced</option>
                                 <option>Separated</option>
@@ -414,12 +414,27 @@
                             </select>
 
                             <label for="occ"><b>Occupation</b></label>
-                            <input id="occ" type="text" placeholder="Occupation code range = [1 to 20]" name="occ">
+                            <select required id="occ" type="text" name="occ">
+                                <option>?</option>
+                                <option>Adm-Clerical</option>
+                                <option>Armed-Forces</option>
+                                <option>Craft-repair</option>
+                                <option>Farming-fishing</option>
+                                <option>Handlers-cleaners</option>
+                                <option>Machine-op-inspct</option>
+                                <option>Mining</option>
+                                <option>Priv-house-serv</option>
+                                <option>Prof-specialty</option>
+                                <option>Protective-serv</option>
+                                <option>Sales</option>
+                                <option>Tech-support</option>
+                                <option>Transport-moving</option>
+                            </select>
 
                             <label for="hrs"><b>Hours of work per week</b></label>
-                            <input id="hrs" type="text" placeholder="Hours of work per week" name="hrs">
+                            <input required id="hrs" type="text" placeholder="Hours of work per week" name="hrs">
 
-                            <center><button type="button" id="submit" class="form_btn">Submit</button></center>
+                            <center><a><button type="button" id="submit" disabled="false" class="form_btn" href="#pred">Submit</button></a></center>
                         </form>
                     </div>
                 </td></tr>
